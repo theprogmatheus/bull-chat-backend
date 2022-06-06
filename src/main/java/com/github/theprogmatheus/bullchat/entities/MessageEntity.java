@@ -28,4 +28,8 @@ public class MessageEntity {
 
 	@Column(name = "was_sent", nullable = false)
 	private Date wasSent;
+
+	@Column(name = "last_change", nullable = false)
+	private Date lastChange;
+
 }
